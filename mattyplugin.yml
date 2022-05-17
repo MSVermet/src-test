@@ -1,0 +1,11 @@
+# Add install script here
+
+---
+- name: testyml
+  hosts: localhost
+  gather_facts: true
+  
+  tasks:
+     - name: test some text
+       debug: 
+         msg: "This is a test plugin"
